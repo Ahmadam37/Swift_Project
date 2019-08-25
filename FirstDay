@@ -39,3 +39,68 @@ print(X + Y)
 X = 6
 Y = 10
 print( X + Y)
+
+X = 1
+Y = 1.2
+Z = 1j
+
+print(type(X))
+print(type(Y))
+print(type(Z))
+
+X = 1
+Y = 1637387234903
+Z = -889891
+
+print(type(X))
+print(type(Y))
+print(type(Z))
+
+X = 14.23
+Y = 1.2
+Z = 3993.2
+
+print(type(X))
+print(type(Y))
+print(type(Z))
+
+X = 15e3
+Y = 1.2E23
+Z = -12E4
+
+print(type(X))
+print(type(Y))
+print(type(Z))
+
+X = 3j+23
+Y = 1j
+Z = -5j
+
+print(type(X))
+print(type(Y))
+print(type(Z))
+
+X = 1
+Y = 1.2
+Z = 1j
+
+#Convert value from int to float
+a = float(X)
+
+#Convert value from float to int
+b = int(Y)
+
+#Convert value from int to Complex
+c = complex(X)
+
+print(a)
+print(b)
+print(c)
+
+print(type(X))
+print(type(Y))
+print(type(Z))
+
+import random
+
+print(random.randrange(1,10))
