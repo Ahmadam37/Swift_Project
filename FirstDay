@@ -13,3 +13,29 @@ This is a test
 for multi line of text
 Thank you
 """
+
+
+X = 5 #x is the type of int
+X = "Ahmad" #X is now type of str
+
+print(X)
+
+Y = "saad"
+print(Y)
+#double quotes is the same single quotes
+Y = 'saad'
+print(Y)
+
+X, Y , T  ="Orange", "Banana","Cheery"
+print(X,Y,T)
+
+X = "Awesome"
+print("Python is "+ X)
+
+X = "Python is "
+Y = "Awesome"
+print(X + Y)
+
+X = 6
+Y = 10
+print( X + Y)
