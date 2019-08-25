@@ -104,3 +104,26 @@ print(type(Z))
 import random
 
 print(random.randrange(1,10))
+
+
+
+X = "Orange\n"
+
+Y = "banana\n"
+
+Z = 'limon'
+
+basket = X + Y + Z
+
+print(basket)
+
+import re
+re.findall('..','1234567890')
+
+
+#This is for grouping elements into n-length groups:
+s='1234567890'
+print([s[idx:idx+2] for idx,val in enumerate(s) if idx%2 == 0])
+
+
+
