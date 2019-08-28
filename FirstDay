@@ -127,16 +127,15 @@ re.findall('..','1234567890')
 s='1234567890'
 print([s[idx:idx+2] for idx,val in enumerate(s) if idx%2 == 0])
 
-print("-------------------------------------------------------------")
+print("-----------------------------Day 6--------------------------------")
 
 
 X = int(1)
 Y = int(2.1)
 Z = int("3")
 
-print(X)
-print(Y)
-print(Z)
+print("\n",X,"\n", Y, "\n", Z)
+
 
 print("-------------------------------------------------------------")
 X = float(1)
@@ -158,3 +157,32 @@ Z = str(3)
 print(X)
 print(Y)
 print(Z)
+
+
+print("-----------------------------Day 7--------------------------------")
+
+a = "Hello"
+
+print(a)
+
+print("-------------------------------------------------------------")
+
+a = """This boot2root is a linux based virtual machine 
+    and has been tested using VirtualBox. The network 
+    interface of the virtual machine will take it's IP 
+    settings from DHCP"""
+print(a)
+
+
+print("-------------------------------------------------------------")
+
+a = "Hello World"
+
+print(a[1])
+
+print("-------------------------------------------------------------")
+
+b = "Hello, World"
+
+print(b[2:6])
+
