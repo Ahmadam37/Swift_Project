@@ -244,4 +244,45 @@ a = "Hello, World"
 print(a.split("l"))
 
 
+print("-----------------------------Day 9 String Format--------------------------------")
+
+#Use the format()method to insert numbers into strings.
+
+age = 25
+
+txt = "my age is {}"
+
+print(txt.format(age))
+
+
+
+
+print("-------------------------------------------------------------")
+
+#The format() method takes unlimited number of arguments, and are placed into the respective placeholders.
+
+quantity = 3
+
+itemno = 30
+
+price = 100
+
+myorder = "i want {} pieces of item {} for {} dollars."
+
+print(myorder.format(quantity, itemno , price))
+
+
+print("-------------------------------------------------------------")
+
+
+#You can use index numbers {0}to be sure the arguments are placed in the correct placeholders.
+quantity = 3
+
+itemno = 30
+
+price = 100
+
+myorder = "i want to pay {1} pieces of item {2} for {0} dollars."
+
+print(myorder.format(quantity, itemno , price))
 
