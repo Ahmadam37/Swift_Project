@@ -477,3 +477,16 @@ y = 6
 
 print(x << y)
 print(x >> y)
+
+print("---------------------------Exam week 2----------------------------------")
+
+
+
+
+z=" Please, I want {5} sandwishes and {7} donutes"
+
+print(z.replace("i", "we"))
+print(z.replace("a", "A"))
+
+
+
